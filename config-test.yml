@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: cloud-config-center
+  cloud:
+    config:
+      label: main
+      server:
+        git:
+          uri: https://github.com/aBleakTea/springcloud-config.git
+          search-paths:
+            - springcloud-config
+          default-label: main
