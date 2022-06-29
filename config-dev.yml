@@ -4,3 +4,5 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:7001/eureka
+config:
+  info:"main branch version=1"
